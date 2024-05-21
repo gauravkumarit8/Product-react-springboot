@@ -37,7 +37,7 @@ public class ProductServices {
     }
 
     public Product findByName(String name){
-        return productRepository.findByName(name);
+        return productRepository.findByTitle(name);
     }
 
     //delete product using id
